@@ -17,7 +17,15 @@
     "mongojs",
     "rest"
   ],
-  "author": "Ian Jorgensen <jorgensen.ian@gmail.com>",
+  "author": {
+    "name": "Ian Jorgensen",
+    "url": "http://github.com/ianjorgensen",
+    "email": "jorgensen.ian@gmail.com"
+  },
   "license": "BSD",
-  "bin": {"mongorest": "./server.js"}
+  "bin": {"mongorest": "./server.js"},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/ianjorgensen/mongorest.git"
+  },
 }
