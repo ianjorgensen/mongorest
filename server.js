@@ -35,8 +35,9 @@ var get = function(request, callback) {
 
 	db.collection(request.params.collection).find(config.query, config.select).sort(config.sort).skip(config.skip).limit(config.limit, callback);
 };
+console.log(__dirname);
+route.get('/', file(__dirname + '/html/home.html'));
 
-route.get('/', file('./html/home.html'));
 route.get('/{collection}.jsonx', function(request, response) {
 	get(request, comun.fork(onerror(response), function(data) {
 		respond(response, 200, data);
