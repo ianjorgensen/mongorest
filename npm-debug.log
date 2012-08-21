@@ -1,0 +1,130 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', '.' ]
+2 info using npm@1.1.43
+3 info using node@v0.8.1
+4 verbose config file /Users/ian/.npmrc
+5 verbose config file /usr/local/etc/npmrc
+6 verbose config file /usr/local/lib/node_modules/npm/npmrc
+7 verbose publish [ '.' ]
+8 verbose read json /Users/ian/code/mongorest/package.json
+9 warn package.json mongojs@0.0.0 No README.md file found!
+10 verbose cache add [ '.', null ]
+11 silly cache add name=undefined spec="." args=[".",null]
+12 verbose parsed url { pathname: '.', path: '.', href: '.' }
+13 silly lockFile 3a52ce78- .
+14 verbose lock . /Users/ian/.npm/3a52ce78-.lock
+15 verbose read json package.json
+16 verbose tar pack [ '/var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/tmp.tgz',
+16 verbose tar pack   '.' ]
+17 verbose tarball /var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/tmp.tgz
+18 verbose folder .
+19 info prepublish mongojs@0.0.0
+20 silly lockFile db068337-24327-0-9501616065390408-tmp-tgz /var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/tmp.tgz
+21 verbose lock /var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/tmp.tgz /Users/ian/.npm/db068337-24327-0-9501616065390408-tmp-tgz.lock
+22 silly lockFile db068337-24327-0-9501616065390408-tmp-tgz /var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/tmp.tgz
+23 verbose tar unpack /var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/tmp.tgz
+24 silly lockFile 4382c8b1-24327-0-9501616065390408-package /var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/package
+25 verbose lock /var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/package /Users/ian/.npm/4382c8b1-24327-0-9501616065390408-package.lock
+26 silly gunzTarPerm modes [ '755', '644' ]
+27 silly gunzTarPerm extractEntry package.json
+28 silly gunzTarPerm extractEntry play.js
+29 silly gunzTarPerm extractEntry server.js
+30 silly gunzTarPerm extractEntry html/home.html
+31 silly gunzTarPerm extractEntry lib/jsonto.js
+32 verbose read json /var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/package/package.json
+33 silly lockFile 4382c8b1-24327-0-9501616065390408-package /var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/package
+34 verbose from cache /var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/package/package.json
+35 verbose tar pack [ '/Users/ian/.npm/mongojs/0.0.0/package.tgz',
+35 verbose tar pack   '/var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/package' ]
+36 verbose tarball /Users/ian/.npm/mongojs/0.0.0/package.tgz
+37 verbose folder /var/folders/tv/99_9yfgx6sz2r_ct8zf4xjmw0000gn/T/npm-68440/1345552424327-0.9501616065390408/package
+38 silly lockFile d9904890-an-npm-mongojs-0-0-0-package-tgz /Users/ian/.npm/mongojs/0.0.0/package.tgz
+39 verbose lock /Users/ian/.npm/mongojs/0.0.0/package.tgz /Users/ian/.npm/d9904890-an-npm-mongojs-0-0-0-package-tgz.lock
+40 silly lockFile d9904890-an-npm-mongojs-0-0-0-package-tgz /Users/ian/.npm/mongojs/0.0.0/package.tgz
+41 silly lockFile 7f965f2f-rs-ian-npm-mongojs-0-0-0-package /Users/ian/.npm/mongojs/0.0.0/package
+42 verbose lock /Users/ian/.npm/mongojs/0.0.0/package /Users/ian/.npm/7f965f2f-rs-ian-npm-mongojs-0-0-0-package.lock
+43 silly lockFile 7f965f2f-rs-ian-npm-mongojs-0-0-0-package /Users/ian/.npm/mongojs/0.0.0/package
+44 verbose tar unpack /Users/ian/.npm/mongojs/0.0.0/package.tgz
+45 silly lockFile 7f965f2f-rs-ian-npm-mongojs-0-0-0-package /Users/ian/.npm/mongojs/0.0.0/package
+46 verbose lock /Users/ian/.npm/mongojs/0.0.0/package /Users/ian/.npm/7f965f2f-rs-ian-npm-mongojs-0-0-0-package.lock
+47 silly gunzTarPerm modes [ '755', '644' ]
+48 silly gunzTarPerm extractEntry package.json
+49 silly gunzTarPerm extractEntry play.js
+50 silly gunzTarPerm extractEntry server.js
+51 silly gunzTarPerm extractEntry html/home.html
+52 silly gunzTarPerm extractEntry lib/jsonto.js
+53 verbose read json /Users/ian/.npm/mongojs/0.0.0/package/package.json
+54 silly lockFile 7f965f2f-rs-ian-npm-mongojs-0-0-0-package /Users/ian/.npm/mongojs/0.0.0/package
+55 silly shasum updated bytes 2762
+56 info shasum b44b5b5b97a41e3e7633002bbdcf52e0c0cfa282
+56 info shasum /Users/ian/.npm/mongojs/0.0.0/package.tgz
+57 verbose from cache /Users/ian/.npm/mongojs/0.0.0/package/package.json
+58 verbose chmod /Users/ian/.npm/mongojs/0.0.0/package.tgz 644
+59 verbose chown /Users/ian/.npm/mongojs/0.0.0/package.tgz [ 501, 20 ]
+60 silly lockFile 3a52ce78- .
+61 silly publish { name: 'mongojs',
+61 silly publish   version: '0.0.0',
+61 silly publish   main: 'play.js',
+61 silly publish   dependencies:
+61 silly publish    { archivo: '~0.2.0',
+61 silly publish      buffoon: '~0.1.4',
+61 silly publish      comun: '~0.2.3',
+61 silly publish      mongojs: '~0.4.3',
+61 silly publish      router: '~0.6.0' },
+61 silly publish   devDependencies: {},
+61 silly publish   scripts:
+61 silly publish    { test: 'echo "Error: no test specified" && exit 1',
+61 silly publish      start: 'node server.js' },
+61 silly publish   repository:
+61 silly publish    { type: 'git',
+61 silly publish      url: 'https://github.com/ianjorgensen/mongorest.git' },
+61 silly publish   license: 'BSD',
+61 silly publish   description: 'ERROR: No README.md file found!',
+61 silly publish   _id: 'mongojs@0.0.0',
+61 silly publish   dist: { shasum: 'b44b5b5b97a41e3e7633002bbdcf52e0c0cfa282' } }
+62 verbose url raw mongojs
+63 verbose url resolving [ 'https://registry.npmjs.org/', './mongojs' ]
+64 verbose url resolved https://registry.npmjs.org/mongojs
+65 info retry registry request attempt 1 at 14:33:44
+66 http PUT https://registry.npmjs.org/mongojs
+67 http 409 https://registry.npmjs.org/mongojs
+68 verbose url raw mongojs
+69 verbose url resolving [ 'https://registry.npmjs.org/', './mongojs' ]
+70 verbose url resolved https://registry.npmjs.org/mongojs
+71 info retry registry request attempt 1 at 14:33:45
+72 http GET https://registry.npmjs.org/mongojs
+73 http 200 https://registry.npmjs.org/mongojs
+74 verbose url raw mongojs/0.0.0/-tag/latest
+75 verbose url resolving [ 'https://registry.npmjs.org/', './mongojs/0.0.0/-tag/latest' ]
+76 verbose url resolved https://registry.npmjs.org/mongojs/0.0.0/-tag/latest
+77 info retry registry request attempt 1 at 14:33:46
+78 http PUT https://registry.npmjs.org/mongojs/0.0.0/-tag/latest
+79 http 403 https://registry.npmjs.org/mongojs/0.0.0/-tag/latest
+80 error publish Error sending version data
+81 error Error: forbidden user: ian not authorized to modify mongojs
+81 error Changed: description "a simple mongo module that implements the mongo api" -> "ERROR: No README.md file found!"
+81 error Changed: dist-tags.latest "0.4.3" -> "0.0.0"
+81 error Added: versions.0.0.0
+81 error Changed: time.modified "2012-05-21T11:03:31.753Z" -> "2012-08-21T12:33:44.033Z"
+81 error Added: time.0.0.0
+81 error Changed: repository.url "git://github.com/gett/mongojs.git" -> "https://github.com/ianjorgensen/mongorest.git": mongojs/0.0.0/-tag/latest
+81 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:14)
+81 error     at Request.init.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/main.js:120:22)
+81 error     at Request.EventEmitter.emit (events.js:91:17)
+81 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/main.js:555:16)
+81 error     at Request.EventEmitter.emit (events.js:88:17)
+81 error     at IncomingMessage.Request.start.self.req.self.httpModule.request.buffer (/usr/local/lib/node_modules/npm/node_modules/request/main.js:517:14)
+81 error     at IncomingMessage.EventEmitter.emit (events.js:115:20)
+81 error     at IncomingMessage._emitEnd (http.js:366:10)
+81 error     at HTTPParser.parserOnMessageComplete [as onMessageComplete] (http.js:149:23)
+81 error     at CleartextStream.socketOnData [as ondata] (http.js:1356:20)
+82 error If you need help, you may report this log at:
+82 error     <http://github.com/isaacs/npm/issues>
+82 error or email it to:
+82 error     <npm-@googlegroups.com>
+83 error System Darwin 11.4.0
+84 error command "node" "/usr/local/bin/npm" "publish" "."
+85 error cwd /Users/ian/code/mongorest
+86 error node -v v0.8.1
+87 error npm -v 1.1.43
+88 verbose exit [ 1, true ]

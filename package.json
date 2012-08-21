@@ -1,5 +1,5 @@
 {
-  "name": "mongojs",
+  "name": "mongorest",
   "version": "0.0.0",
   "main": "play.js",
   "dependencies": {
