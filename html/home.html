@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+	<title>Monog Rest</title>
+	<style>
+	div {
+		background: lightgray;
+		padding: 10px;
+		margin: 10px;
+	}
+	</style>
+</head>
+<body>
+	<h1>Mongo Rest</h1>
+	<p>A simple rest interface to mongo db</p>
+	<div>npm install mongorest</div>
+	<div>mongorest port mongoConnectionString</div>
+	<h2>Usage</h2>
+	<p>Collections are aceessible at /collection, e.g. /data access data collection</p>
+	
+	<h3>Get</h3>
+
+	<p>Get documents in a collection. Accepts the following url query parameters.</p>
+	<ul>
+		<li>query- mongo query</li>
+		<li>select - select query</li>
+		<li>sort - sort query</li>
+		<li>skip - number</li>
+		<li>limit - number</li>
+	</ul>
+	<p>Get all documents - defaults to 100</p>
+	<div><a href='http://localhost:9080/data'>http://localhost:9080/data</a></div>
+	<p>Get all documents - in xml format</p>
+	<div><a href='http://localhost:9080/data.xml'>http://localhost:9080/data.xml</a></div>
+	<p>Get all documents - in csv format</p>
+	<div><a href='http://localhost:9080/data.csv'>http://localhost:9080/data.csv</a></div>
+	<p>Get 200 documents matching query</p>
+	<div><a href='http://localhost:9080/data?query={type:'pulse'}&limit:200'>http://localhost:9080/data?query={type:'pulse'}&limit:200</a></div>
+	
+	<h3>POST</h3>
+	
+	<p>Save a document</p>
+	<div>curl http://localhost:9080/data -i -X POST -d '{"doc":1}'</div>
+	<p>Save many documents</p>
+	<div>curl http://localhost:9080/data -i -X POST -d '[{"doc":1},{"doc":2}]'</div>
+	<p>Update a document</p>
+	<div>curl http://localhost:9080/data?query={doc:1} -i -X POST -d '{"doc":'one'}'</div>
+	
+	<h3>Delete</h3>
+	
+	<p>Delete all records in a collection</p>
+	<div>curl -X DELETE http://localhost:9080/data</div>
+	<p>Delete all records matching query</p>
+	<div>curl -X DELETE http://localhost:9080/data?query={type:'pulse'}</div>
+</body>
+</html>
+
+
